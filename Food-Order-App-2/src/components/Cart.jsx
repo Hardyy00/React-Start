@@ -1,4 +1,5 @@
 import { useContext } from "react";
+import React from "react";
 import CartContext from "../store/CartContext";
 import priceFormatter from "../util/formatting";
 

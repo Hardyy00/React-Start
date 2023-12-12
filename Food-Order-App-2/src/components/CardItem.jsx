@@ -1,4 +1,5 @@
 import priceFormatter from "../util/formatting";
+import React from "react";
 
 export default function CartItem({
   name,

@@ -1,3 +1,4 @@
+import React from "react";
 import Cart from "./components/Cart";
 import CheckOut from "./components/CheckOut";
 import Header from "./components/Header";
@@ -5,7 +6,7 @@ import Meals from "./components/Meals";
 import { CartContextProvider } from "./store/CartContext";
 import { UserProgressContextProvider } from "./store/UserProgressContext";
 
-function App() {
+export default function App() {
   return (
     <UserProgressContextProvider>
       <CartContextProvider>
@@ -17,5 +18,3 @@ function App() {
     </UserProgressContextProvider>
   );
 }
-
-export default App;

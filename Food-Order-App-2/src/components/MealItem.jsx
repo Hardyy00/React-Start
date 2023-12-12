@@ -1,3 +1,4 @@
+import React from "react";
 import { useContext } from "react";
 import priceFormatter from "../util/formatting.js";
 

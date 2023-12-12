@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 
 import MealItem from "./MealItem";
 import useHttp from "../hooks/use-http";

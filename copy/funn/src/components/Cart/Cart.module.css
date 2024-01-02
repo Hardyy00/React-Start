@@ -1,0 +1,18 @@
+.cart {
+  background-color: #252525;
+  width: 35rem;
+}
+
+.cart h1 {
+  color: white;
+  padding: 0 10%;
+}
+
+.cart ul {
+  list-style: none;
+  padding: 2px 0;
+  margin: auto;
+  border-radius: 14px;
+  background-color: #383636;
+  width: 30rem;
+}

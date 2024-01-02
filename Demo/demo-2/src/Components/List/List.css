@@ -1,0 +1,10 @@
+.list {
+  width: 40%;
+  margin: 3rem auto;
+  display: flex;
+  padding: 1rem 1rem;
+  background-color: white;
+  gap: 1rem;
+  flex-direction: column;
+  border-radius: 14px;
+}

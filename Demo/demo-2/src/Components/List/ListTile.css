@@ -1,0 +1,13 @@
+.list-tile {
+  width: 100%;
+  background-color: white;
+  padding: 2px 20px;
+  font-weight: bolder;
+  border: 2px solid red;
+}
+
+.list-tile:hover {
+  background-color: rgb(220, 43, 43);
+  color: white;
+  transition: all 0.2s ease-in;
+}

@@ -1,0 +1,47 @@
+.modal-body {
+  height: 15rem;
+  width: 40rem;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%);
+  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  align-items: flex-start;
+  gap: 1.5rem;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.header {
+  background-color: rgb(96, 2, 96);
+  width: 100%;
+  color: white;
+  padding-inline-start: 2.5rem;
+  overflow: hidden;
+}
+
+.content {
+  width: 100%;
+  padding: 0.1rem 1.5rem;
+  font-size: large;
+}
+
+.modal-body button {
+  margin-inline-start: 75%;
+  width: 17%;
+  height: 2.4rem;
+  border-radius: 13px;
+  border: 1px solid black;
+  background-color: rgba(214, 43, 43, 0.712);
+  color: white;
+  font-weight: bold;
+  font-size: large;
+}
+
+.modal-body button:active {
+  outline: none;
+  background-color: rgba(185, 18, 18, 0.712);
+}

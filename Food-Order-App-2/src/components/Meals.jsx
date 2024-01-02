@@ -5,7 +5,8 @@ import useHttp from "../hooks/use-http";
 import Error from "./Error";
 
 const requestConfig = {};
-const url = "http:://localhost:3000/meals";
+// const url = "http:://localhost:3000/meals";
+const url = "https://react-food-backend-m6fy.onrender.com/meals";
 
 export default function Meals() {
   // const [loadedMeals, setLoadedMeals] = useState([]);
@@ -28,7 +29,7 @@ export default function Meals() {
     data: loadedMeals,
     isLoading,
     error,
-  } = useHttp("http://localhost:3000/meals", requestConfig, []);
+  } = useHttp(url, requestConfig, []);
 
   if (isLoading) return <p className="center">Data is being fetched...</p>;
 

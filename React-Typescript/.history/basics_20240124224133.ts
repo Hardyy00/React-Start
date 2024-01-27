@@ -1,0 +1,22 @@
+// Primitives : number, string, boolean
+// more complex types : array, objects
+// function types,, parameters
+
+let age: number = 1;
+
+let username: string = "hardik gaur";
+
+console.log(username);
+
+let bool: boolean = true;
+
+// complex types
+
+let hobbies: string[]; // array of strings
+
+hobbies = ["1", "ag"];
+
+let person: {
+  name: string;
+  age: number;
+};
